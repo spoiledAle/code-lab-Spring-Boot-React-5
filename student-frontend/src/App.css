@@ -1,0 +1,125 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #f0f2f5;
+  color: #222;
+}
+
+.app-container { max-width: 1000px; margin: 0 auto; padding: 30px 20px; }
+
+.app-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 24px 30px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.app-header h1 { font-size: 1.6rem; margin-bottom: 4px; }
+.app-header p { font-size: 0.9rem; opacity: 0.7; }
+
+.student-form {
+  background: white;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.student-form h3 {
+  margin-bottom: 16px;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+}
+
+input:focus { outline: none; border-color: #2c3e50; }
+
+.form-buttons { margin-top: 12px; }
+
+.btn-primary {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-primary:hover { background: #1a252f; }
+
+.btn-secondary {
+  background: #ecf0f1;
+  color: #333;
+  border: 1px solid #bdc3c7;
+  padding: 10px 22px;
+  border-radius: 4px;
+  margin-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.student-list {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  padding: 24px;
+}
+
+.student-list h2 { margin-bottom: 20px; font-size: 1.1rem; color: #2c3e50; }
+
+table { width: 100%; border-collapse: collapse; }
+
+th {
+  background: #2c3e50;
+  color: white;
+  padding: 12px 14px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+td { padding: 12px 14px; border-bottom: 1px solid #ecf0f1; font-size: 14px; }
+
+tr:last-child td { border-bottom: none; }
+tr:hover td { background-color: #f8f9fa; }
+
+button {
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 6px;
+  border: 1px solid #ccc;
+  background: #f8f9fa;
+  color: #222;
+}
+
+button:hover { background: #e9ecef; }
+
+.error { color: #e74c3c; font-weight: bold; padding: 20px; }
+.loading { color: #666; padding: 20px; }
+
+.app-footer {
+  text-align: center;
+  padding: 20px;
+  color: #999;
+  font-size: 13px;
+  margin-top: 20px;
+}
